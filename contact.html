@@ -13,29 +13,32 @@
 
 <body>
     <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg bg-success ">
-    <div class="container-fluid">
-        <a class="navbar-brand text-white fw-bold ps-lg-5" href="index.html">
-            <img src="images/logo/logo.jpg" class="logo " alt="Logo"
-                class="d-inline-block align-text-top">
+<nav class="navbar navbar-expand-md bg-success">
+    <div class="container-fluid p-0 m-0">
+        <a class="navbar-brand text-white fw-bold ps-lg-5 px-3" href="index.html">
+            <img src="images/logo/logo.jpg" class="logo" alt="Logo" class="d-inline-block align-text-top" />
             Agri Hub
         </a>
+        <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto me-lg-5">
-                <li class="nav-item">
+            <ul class="navbar-nav ms-auto me-md-5 navbar-design">
+                <li class="nav-item ">
                     <a class="nav-link  text-white" href="index.html">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link  text-white" href="firming-guids.html">Farming Guides</a>
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="firming-guids.html">Farming Guides</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white " href="crop-details.html">Crop Details</a>
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="crop-details.html">Crop Details</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item ">
                     <a class="nav-link text-white" href="pest-controls.html">Pest Controls</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="contact.html">Contact</a>
+                <li class="nav-item ">
+                    <a class="nav-link text-white active" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
@@ -56,8 +59,8 @@
 
         <div class="row">
             <!-- find me on map -->
-            <div class="col-md-5">
-                <h2 class="text-center "><span class=" border-bottom border-3 border-success ">Find me on Map</span></h2>
+            <div class="col-md-5  mt-5">
+                <h2 class="text-center "><span class="border-bottom border-3 border-success">Find me on Map</span></h2>
                 <div class="mt-4">
                     <div class="d-flex ">
                         <i class="bi bi-geo-alt-fill me-2"></i>
@@ -83,7 +86,7 @@
             </div>
 
             <!-- form -->
-            <div class="col-md-7">
+            <div class="col-md-7 mt-5">
                 <h2 class="text-center "><span class=" border-bottom border-3 border-success ">Send me a massage</span>
                 </h2>
                 <form action="" method="get" class="needs-validation" novalidate>
@@ -172,42 +175,36 @@
 </section>
 
 <!-- FOOTER -->
- <section class="mt-5 bg-success footer">
-    <div class="container-fluid">
+<section class="mt-5 bg-success footer p-5">
+    <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <nav class="navbar navbar-expand-lg ">
-                    <div class="container-fluid">
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav footer-ul-li ms-auto me-lg-5">
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white " href="firming-guids.html">Farming Guides</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white " href="crop-details.html">Crop Details</a>
-                                </li>
-                                <li class="nav-item">
-                    <a class="nav-link text-white" href="pest-controls.html">Pest Controls</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="contact.html">Contact</a>
-                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+            <div class="col-md-8">
+                <ul class="navbar-nav mx-auto navbar-design">
+                    <li class="nav-item footer-li-width">
+                        <a class="nav-link active text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item footer-li-width ">
+                        <a class="nav-link text-white" href="firming-guids.html">Farming Guides</a>
+                    </li>
+                    <li class="nav-item footer-li-width">
+                        <a class="nav-link text-white" href="crop-details.html">Crop Details</a>
+                    </li>
+                    <li class="nav-item footer-li-width ">
+                        <a class="nav-link text-white" href="pest-controls.html">Pest Controls</a>
+                    </li>
+                    <li class="nav-item footer-li-width ">
+                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="text-white w-50 mx-auto mt-3">
                     <p id="date-time"><b></b></p>
                 </div>
             </div>
         </div>
     </div>
- </section>
+</section>
 
 <script src="js/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

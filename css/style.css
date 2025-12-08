@@ -2,11 +2,24 @@
     height: 50px;
     width: 50px;
 }
-.navbar-nav li {
-    margin-right: 30px;
+
+.navbar-design li{
+    margin-right: 10px;
+    padding: 1px 5px;
+    border-radius: 5px;
+    transition: .4s ease;
+    font-weight: bold;
 }
-.footer-ul-li li {
-    margin-right: 15px !important;
+.navbar-design li:hover {
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.navbar-design li a.active:hover,
+.navbar-design li a:hover {
+    color: rgb(0, 109, 49) !important;
+}
+.footer-li-width{
+    width: 250px;
 }
 .slider-img {
     height: 450px;
