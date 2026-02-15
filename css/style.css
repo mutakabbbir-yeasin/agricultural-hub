@@ -3,6 +3,39 @@
     width: 50px;
 }
 
+/* hambarger icon design */
+.custom-toggler {
+  border: none;
+  outline: none;
+}
+
+.custom-toggler span {
+  display: block;
+  width: 26px;
+  height: 3px;
+  margin: 5px 0;
+  background: #fff;
+  border-radius: 2px;
+  transition: all 0.35s ease;
+}
+
+.custom-toggler:hover span {
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+.custom-toggler[aria-expanded="true"] span:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.custom-toggler[aria-expanded="true"] span:nth-child(2) {
+  opacity: 0;
+}
+
+.custom-toggler[aria-expanded="true"] span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+
 .navbar-design li{
     margin-right: 10px;
     padding: 1px 5px;
